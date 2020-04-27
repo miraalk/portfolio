@@ -6,6 +6,12 @@
 *{
   transition: background-color 1s ease;
 }
+
+@font-face {
+  font-family: myFont;
+  src: url(/Raleway-SemiBold.ttf);
+}
+
   .button {
     background-color: #deebeb;
     border: none;
