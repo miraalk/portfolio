@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  #grid {
+    display: grid;
+    animation: forwards;
+    transition: 2s;
+  }
+  
+  #areaA {
+    background-color: #DFEBEB;
+    height: 350px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+  }
+
+
+  #areaB {
+    background-color: #0A133C;
+    height: 350px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+  }
+
+  #areaC {
+    background-color: #fff;
+    height: 350px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+  }
+
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 20px 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;

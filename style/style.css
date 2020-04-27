@@ -1,0 +1,75 @@
+@import url("fonts.css");
+@import url("textblockheads.css");
+@import url("navigation.css");
+@import url("parallax.css");
+@import url("rows.css");
+*{
+  transition: background-color 1s ease;
+}
+  .button {
+    background-color: #deebeb;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    margin-bottom: -50px;
+  }
+
+  .button :hover{
+    background-color: #bdbdbd;
+  }
+
+  /* Setting fade transition and default settings */
+body {
+  color: #000;
+  background-color: #fff;
+  transition: background-color 1s ease;
+}
+
+/* panel styles */
+.panel {
+  /* min height incase content is higher than window height */
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  /*outline: 10px solid hotpink; */
+  /* turn above on to see the edge of panels */
+}
+
+.panel2 {
+  /* min height incase content is higher than window height */
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  /*outline: 10px solid hotpink; */
+  /* turn above on to see the edge of panels */
+}
+
+/* colours */
+.color-rose {
+  background-color: #EACBC0;
+}
+.color-white {
+  background-color: #fff;
+}
+
+.imageclass {
+  animation: fadeOut 2s forwards;
+  animation-delay: 1s;
+}
+
+.footer {
+margin-top: 2300px;
+height: 470px;
+background-color:  #DFEBEB;
+color: red;
+}
