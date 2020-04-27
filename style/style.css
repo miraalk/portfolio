@@ -26,8 +26,8 @@
     margin-bottom: -50px;
   }
 
-  .button :hover{
-    background-color: #bdbdbd;
+  .button:hover{
+    background-color: #EACBC0;
   }
 
   /* Setting fade transition and default settings */
