@@ -79,3 +79,10 @@ height: 400px;
 background-color:  #DFEBEB;
 color: red;
 }
+
+mark{
+  background-color: rgb(248, 184, 165);
+  transition: 0s;
+  display: inline-block; 
+  line-height: 0.6;
+}
