@@ -38,6 +38,13 @@
     padding: 20px 0px;
     height: 300px; /* Should be removed. Only for demonstration */
   }
+
+  .threecolumns{
+    float: left;
+    width: 33.3%;
+    padding: 20px 0px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
   
   /* Clear floats after the columns */
   .row:after {
@@ -52,3 +59,4 @@
     background-color:#DFEBEB;
     padding-top: 40px;
   }
+
