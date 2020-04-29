@@ -1,0 +1,125 @@
+.animated {
+    position: relative;
+  }
+  
+  .animated-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    min-width: 260px;
+    position: relative;
+  }
+  
+  .animated-item {
+    color: #131946;
+    font-family: 'myFont';
+    font-size: 40px;
+    line-height: inherit;
+    display: block;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    margin-top: 27px;
+    margin-left: 306px;
+    right: 0;
+    left: 0;
+    animation: BottomTotop 12s linear infinite 0s;
+  }
+  .animated-item:nth-child(2n+2) {
+    animation-delay: 3s;
+  }
+  .animated-item:nth-child(3n+3) {
+    animation-delay: 6s;
+  }
+  .animated-item:nth-child(4n+4) {
+    animation-delay: 9s;
+  }
+
+  
+  @keyframes BottomTotop {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    10% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    25% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    30% {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
+
+  .animated2 {
+    position: relative;
+  }
+  
+  .animated2-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    min-width: 380px;
+    position: relative;
+  }
+  
+  .animated2-item {
+    color: #f6967a;
+    font-family: 'myFont';
+    font-size: 26px;
+    line-height: inherit;
+    display: block;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    animation: BottomTotop 12s linear infinite 0s;
+  }
+
+  .animated2-item2 {
+    color: #B88570;
+    font-family: 'Raleway';
+    font-variant: small-caps;
+    font-size: 16px;
+    line-height: 1;
+    display: block;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 240px;
+    top: 0;
+    right: 0;
+    left: 0;
+    animation: BottomTotop 12s linear infinite 0s;
+  }
+
+  .animated2-item:nth-child(2n+2) {
+    animation-delay: 4s;
+  }
+  .animated2-item:nth-child(3n+3) {
+    animation-delay: 8s;
+  } 
+  .animated2-item2:nth-child(2n+2) {
+    animation-delay: 4s;
+  }
+  .animated2-item2:nth-child(3n+3) {
+    animation-delay: 8s;
+  }

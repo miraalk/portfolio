@@ -4,6 +4,7 @@
 @import url("parallax.css");
 @import url("rows.css");
 @import url("carousel.css");
+@import url("animation.css");
 
 *{
   transition: background-color 1s ease;
