@@ -24,16 +24,16 @@
     margin-left: 306px;
     right: 0;
     left: 0;
-    animation: BottomTotop 8s linear infinite 0s;
+    animation: BottomTotop 6s linear infinite 0s;
   }
   .animated-item:nth-child(2n+2) {
-    animation-delay: 2s;
+    animation-delay: 1.5s;
   }
   .animated-item:nth-child(3n+3) {
-    animation-delay: 4s;
+    animation-delay: 3s;
   }
   .animated-item:nth-child(4n+4) {
-    animation-delay: 6s;
+    animation-delay: 4.5s;
   }
 
   

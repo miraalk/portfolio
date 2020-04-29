@@ -60,4 +60,14 @@
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #EACBC0;
+    font-family: 'Raleway';
+    padding-left: 180px;
+  }
+
+  .full-width-footer{
+    width:100%;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    font-family: 'Raleway';
+    padding-left: 180px;
   }
