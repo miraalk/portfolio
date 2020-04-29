@@ -3,6 +3,8 @@
 @import url("navigation.css");
 @import url("parallax.css");
 @import url("rows.css");
+@import url("carousel.css");
+
 *{
   transition: background-color 1s ease;
 }
@@ -24,6 +26,7 @@
     margin: 10px 2px;
     cursor: pointer;
     margin-bottom: -50px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
   }
 
   .button:hover{
@@ -40,7 +43,7 @@ body {
 /* panel styles */
 .panel {
   /* min height incase content is higher than window height */
-  height: 450px;
+  height: 400px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -74,8 +77,8 @@ body {
 }
 
 .footer {
-margin-top: 2500px;
-height: 300px;
+margin-top: 2200px;
+height: 250px;
 background-color:  #DFEBEB;
 }
 
@@ -85,7 +88,6 @@ mark{
   display: inline-block; 
   line-height: 0.6;
 }
-
 
 .skills {
   text-align: left;

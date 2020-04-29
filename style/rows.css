@@ -1,4 +1,4 @@
-* {
+  * {
     box-sizing: border-box;
   }
   
@@ -11,6 +11,7 @@
   
   #areaA {
     background-color: #DFEBEB;
+    /*background-image: linear-gradient(to right,#DFEBEB, #fff); */
     height: 350px;
     margin-bottom: 20px;
     padding: 20px 20px 20px 20px;
@@ -60,4 +61,3 @@
     padding-bottom: 40px;
     background-color: #EACBC0;
   }
-

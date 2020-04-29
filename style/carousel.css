@@ -1,0 +1,82 @@
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #F0E0D9;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  color: #B88570;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: rgb(221, 172, 151);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot:hover{
+  background-color: #B88570;
+}
+
+
+/* Add a background color to the active dot/circle 
+.active, .dot:hover {
+  background-color: #717171;
+}
+*/
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.4;
+  font-family: 'myFont';
+  color: #f6967a;
+  }
+
+/* Add a blue color to the author */
+.author {
+    color: #B88570;
+    font-variant: small-caps;
+    font-family: 'Raleway';
+  }
