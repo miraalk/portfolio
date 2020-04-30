@@ -32,6 +32,13 @@
     padding: 20px 20px 20px 20px;
   }
 
+  #areaD {
+    background-color: #EACBC0;
+    height: 350px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+  }
+
 
   .column {
     float: left;
@@ -59,9 +66,8 @@
     width:100%;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #EACBC0;
+    background-color: #EFD9D5;
     font-family: 'Raleway';
-    padding-left: 180px;
   }
 
   .full-width-footer{
